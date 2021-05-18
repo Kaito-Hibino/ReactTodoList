@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  outline: none;
+  padding: 4px;
+  border: none;
+  margin-bottom: 12px;
+}
+button {
+  border-radius: 20px;
+  border: none;
+  margin-left: 12px;
+  padding: 4px, 16px;
+}
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.input-area {
+  min-height: 60px;
+  background-color: #6da8a8;
+  line-height: 15px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.incomplete-area {
+  background-color: #598562;
+  padding: 12px 12px 12px;
+  margin-bottom: 12px;
+}
+.title {
+  text-align: center;
+  color: rgb(43, 43, 43);
+}
+.list-containts {
+  display: flex;
+  align-items: center;
+}
+.complete-area {
+  background-color: #b3aa2c;
+  padding: 12px 12px 12px;
+  margin-bottom: 12px;
+}
+.allDelBtn {
+  margin-right: auto;
+}
